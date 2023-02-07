@@ -25,8 +25,6 @@ Otro ejemplo con un árbol de altura `3`:
 
 Ten en cuenta que el árbol es un string y necesitas los saltos de línea `\n` para cada línea para que se forme bien el árbol.<br ><br >
 
----
-
 ## **Solución**
 
     export default function createXmasTree(height) {

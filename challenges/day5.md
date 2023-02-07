@@ -30,8 +30,6 @@ El resultado tiene que ser un número entero y, como ves, aunque falte un segund
 
 Por cierto, la fecha de referencia para saber si es 25 de diciembre es `Dec 25, 2021`.<br ><br >
 
----
-
 ## **Solución**
 
     export default function daysToXmas(date) {

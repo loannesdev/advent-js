@@ -22,8 +22,6 @@ Al ejecutar el método debería devolver lo siguiente:
 
 Recuerda. Debe contener las dos letras 'a' y 'n' en el nombre. No cuentes ovejas que sólo tenga una de las letras, debe tener ambas. <br ><br >
 
----
-
 ## **Solución**
 
     export default function contarOvejas(arr) {

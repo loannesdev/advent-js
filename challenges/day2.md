@@ -22,8 +22,6 @@ Al ejecutar el método debería devolver lo siguiente:
     
 Ten en cuenta que los tests pueden ser más exhaustivos... 😝 ¡Cuidado con contar espacios vacíos!<br ><br >
 
----
-
 ## **Solución**
 
     export default function listGifts(letter) {
