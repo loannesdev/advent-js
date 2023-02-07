@@ -1,4 +1,7 @@
-**<div style="text-align: center;"> <h2 style="font-weight: bold; margin: 0;">Retos del [adventJS (2021)](https://2021.adventjs.dev/)</h2> <br> <span style="font-style: italic;">por [Midudev](https://github.com/midudev)</span></div>**
+## Retos del [adventJS (2021)](https://2021.adventjs.dev/)
+*por [Midudev](https://github.com/midudev)*
+
+<br>
 
 * #### [Día 1](/challenges/day1.md)
 * #### [Día 3](/challenges/day2.md)
