@@ -6,38 +6,44 @@ La lista de precios es un array de números y representa el tiempo de izquierda 
 
 Por ejemplo:
 
-    const pricesBtc = [39, 18, 29, 25, 34, 32, 5]
-    maxProfit(pricesBtc) // -> 16 (compra a 18, vende a 34)
+```js
+const pricesBtc = [39, 18, 29, 25, 34, 32, 5]
+maxProfit(pricesBtc) // -> 16 (compra a 18, vende a 34)
 
-    const pricesEth = [10, 20, 30, 40, 50, 60, 70]
-    maxProfit(pricesEth) // -> 60 (compra a 10, vende a 70)
+const pricesEth = [10, 20, 30, 40, 50, 60, 70]
+maxProfit(pricesEth) // -> 60 (compra a 10, vende a 70)
+```
 
 Si ese día no se puede sacar ningún beneficio, tenemos que devolver `-1` para evitar que hagamos una locura:
 
-    const pricesDoge = [18, 15, 12, 11, 9, 7]
-    maxProfit(pricesDoge) = // -> -1 (no hay ganancia posible)
+```js
+const pricesDoge = [18, 15, 12, 11, 9, 7]
+maxProfit(pricesDoge) = // -> -1 (no hay ganancia posible)
 
-    const pricesAda = [3, 3, 3, 3, 3]
-    maxProfit(pricesAda) = // -> -1 (no hay ganancia posible)
+const pricesAda = [3, 3, 3, 3, 3]
+maxProfit(pricesAda) = // -> -1 (no hay ganancia posible)
+```
 
 <br >
 
 ## **Solución**
 
-    export default function maxProfit(prices) {
-      let RESULT = 0;
+```js
+export default function maxProfit(prices) {
+  let RESULT = 0;
 
-      for (const p of prices) {
-        if (p === Math.max(...prices)) {
-          prices = prices.slice(1, prices.length);
-          continue;
-        }
-
-        if (p !== Math.max(...prices)) {
-          RESULT = Math.abs(p - Math.max(...prices));
-          break;
-        }
-      }
-
-      return RESULT > 0 ? RESULT : -1;
+  for (const p of prices) {
+    if (p === Math.max(...prices)) {
+      prices = prices.slice(1, prices.length);
+      continue;
     }
+
+    if (p !== Math.max(...prices)) {
+      RESULT = Math.abs(p - Math.max(...prices));
+      break;
+    }
+  }
+
+  return RESULT > 0 ? RESULT : -1;
+}
+```

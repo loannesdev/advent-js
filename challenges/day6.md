@@ -8,11 +8,13 @@ Si no se encuentra, se devuelve `null`.
 
 Veamos unos ejemplos:
 
-    sumPairs([3, 5, 7, 2], 10) // [3, 7]
-    sumPairs([-3, -2, 7, -5], 10) // null
-    sumPairs([2, 2, 3, 1], 4) // [2, 2]
-    sumPairs([6, 7, 1, 2], 8) // [6, 2]
-    sumPairs([0, 2, 2, 3, -1, 1, 5], 6) // [1, 5]
+```js
+sumPairs([3, 5, 7, 2], 10) // [3, 7]
+sumPairs([-3, -2, 7, -5], 10) // null
+sumPairs([2, 2, 3, 1], 4) // [2, 2]
+sumPairs([6, 7, 1, 2], 8) // [6, 2]
+sumPairs([0, 2, 2, 3, -1, 1, 5], 6) // [1, 5]
+```
 
 El resultado tiene que ser un array con dos números.
 
@@ -20,17 +22,19 @@ Una vez que tengas el resultado... ¿cómo podrías hacer que fuese lo más ópt
 
 ## **Solución**
 
-    export default function sumPairs(numbers, result) {
-      let VALUES = null;
+```js
+export default function sumPairs(numbers, result) {
+  let VALUES = null;
 
-      numbers.forEach((elm, index, array) => {
-        array[index] = null;
+  numbers.forEach((elm, index, array) => {
+    array[index] = null;
 
-        if (VALUES === null) {
-          const REST = result - elm;
-          array.forEach((v) => (REST === v ? (VALUES = [elm, v]) : null));
-        }
-      });
-
-      return VALUES;
+    if (VALUES === null) {
+      const REST = result - elm;
+      array.forEach((v) => (REST === v ? (VALUES = [elm, v]) : null));
     }
+  });
+
+  return VALUES;
+}
+```

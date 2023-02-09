@@ -27,26 +27,27 @@ Ten en cuenta que el árbol es un string y necesitas los saltos de línea `\n` p
 
 ## **Solución**
 
-    export default function createXmasTree(height) {
-      const TREE_SIZE = height;
+```js
+export default function createXmasTree(height) {
+  const TREE_SIZE = height;
 
-      if (TREE_SIZE >= 1 && TREE_SIZE <= 100) {
-        let tree = Array.from({ length: TREE_SIZE }).map((elm, index) => {
-          return index > 0 ? "*".repeat(index * 2 + 1) : "*";
-        });
+  if (TREE_SIZE >= 1 && TREE_SIZE <= 100) {
+    let tree = Array.from({ length: TREE_SIZE }).map((elm, index) => {
+      return index > 0 ? "*".repeat(index * 2 + 1) : "*";
+    });
 
-        tree.push("#", "#");
-        const LARGEST_VALUE = Math.max(...tree.map((elm) => elm.length));
+    tree.push("#", "#");
+    const LARGEST_VALUE = Math.max(...tree.map((elm) => elm.length));
 
-        return tree
-          .map((elm) => {
-            const NUMBER_OF_UNDERSCORE = (LARGEST_VALUE - elm.length) / 2;
-            const LINE = "_".repeat(NUMBER_OF_UNDERSCORE);
+    return tree.map((elm) => {
+      const NUMBER_OF_UNDERSCORE = (LARGEST_VALUE - elm.length) / 2;
+      const LINE = "_".repeat(NUMBER_OF_UNDERSCORE);
 
-            return `${LINE}${elm}${LINE}`;
-          })
-          .join("\n");
-      }
+      return `${LINE}${elm}${LINE}`;
+    })
+      .join("\n");
+  }
 
-      return "El rango del tamaño del arbol es del 1 al 100";
-    }
+  return "El rango del tamaño del arbol es del 1 al 100";
+}
+```

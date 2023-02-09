@@ -8,20 +8,24 @@ Para saber si una carta es válida ✅, debes comprobar que los paréntesis cier
 
 Ejemplos:
 
-    "bici coche (balón) bici coche peluche" // -> ✅
-    "(muñeca) consola bici" // ✅
+```js
+"bici coche (balón) bici coche peluche" // -> ✅
+"(muñeca) consola bici" // ✅
 
-    "bici coche (balón bici coche" // -> ❌
-    "peluche (bici [coche) bici coche balón" // -> ❌
-    "(peluche {) bici" // -> ❌
-    "() bici" // ❌
+"bici coche (balón bici coche" // -> ❌
+"peluche (bici [coche) bici coche balón" // -> ❌
+"(peluche {) bici" // -> ❌
+"() bici" // ❌
+```
 
-Crea una función que pasándole el texto de la carta, devuelva `true` si es válida y `false` si no lo es. ¡Y acaba con la travesura del Grinch!<br ><br >
+Crea una función que pasándole el texto de la carta, devuelva `true` si es válida y `false` si no lo es. ¡Y acaba con la travesura del Grinch!.<br ><br >
 
 ## **Solución**
 
-    export default function isValid(letter) {
-      return letter.includes("()")
-        ? false
-        : /\(([^(){[]*)\)/g.test(letter)
-    }
+```js
+export default function isValid(letter) {
+  return letter.includes("()")
+    ? false
+    : /\(([^(){[]*)\)/g.test(letter)
+}
+```
