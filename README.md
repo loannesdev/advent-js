@@ -20,3 +20,4 @@
 * [Día 15](/challenges/day15.md)
 * [Día 16](/challenges/day16.md)
 * [Día 17](/challenges/day17.md)
+* [Día 18](/challenges/day18.md)
