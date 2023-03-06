@@ -5,7 +5,9 @@
 
 <br>
 
-|  Día  |                    Título                    |                                        |
+<div align="center">
+
+|  Día  |             Nombre del ejercicio             |                                        |
 | :---: | :------------------------------------------: | :------------------------------------: |
 |   1   |         Contando ovejas para dormir          | [Mirar solución](/challenges/day1.md)  |
 |   2   |     ¡Ayuda al elfo a listar los regalos!     | [Mirar solución](/challenges/day2.md)  |
@@ -26,3 +28,5 @@
 |  17   |  La locura de enviar paquetes en esta época  | [Mirar solución](/challenges/day17.md) |
 |  18   |     El sistema operativo de Santa Claus      | [Mirar solución](/challenges/day18.md) |
 |  19   |    ¿Porqué deberíamos aprender en Platzi?    | [Mirar solución](/challenges/day19.md) |
+
+</div>
