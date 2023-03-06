@@ -5,7 +5,7 @@
 
 <br>
 
-<section align="center">
+<div align="center" style="width: 100%;">
 
 |  Día  | Nombre del ejercicio                         |                   📝                    |
 | :---: | :------------------------------------------- | :------------------------------------: |
