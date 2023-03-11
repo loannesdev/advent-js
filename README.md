@@ -28,5 +28,6 @@
 |  17   | La locura de enviar paquetes en esta época   | [Mirar solución](/challenges/day17.md) |
 |  18   | El sistema operativo de Santa Claus          | [Mirar solución](/challenges/day18.md) |
 |  19   | ¿Porqué deberíamos aprender en Platzi?       | [Mirar solución](/challenges/day19.md) |
+|  20   | ¿Una carta de pangramas? ¿QUÉ?               | [Mirar solución](/challenges/day20.md) |
 
 </section>
