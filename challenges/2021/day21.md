@@ -44,13 +44,13 @@ Lo difícil, e importante, es que entiendas que Santa Claus **va entregando y re
 ```js
 export default function canCarry(capacity, trip) {
   let packages = 0;
-  const pickUp = trip.map(([packs, value]) => ({value, packs, flag: "in"}));
-  const deliver = trip.map(([packs, _, value]) => ({
-    value,
-    packs,
-    flag: "out",
-  }));
-  const mapedTrips = [pickUp, deliver].flat().sort((a, b) => a.value - b.value);
+  const pickUp = trip.map(([packs, value]) => ({value, packs, flag: "in"})),
+    deliver = trip.map(([packs, _, value]) => ({
+      value,
+      packs,
+      flag: "out",
+    })),
+    mapedTrips = [pickUp, deliver].flat().sort((a, b) => a.value - b.value);
 
   for (let i = 0; i < mapedTrips.length; i++) {
     const element = mapedTrips[i];
