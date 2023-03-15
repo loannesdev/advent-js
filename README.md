@@ -6,23 +6,26 @@
 <br>
 
 <details open>
-<summary><b>2021</b></summary>
-<table align="center">
-  <thead>
-    <tr>
-      <th>Día</th>
-      <th>Nombre del ejercicio</th>
-      <th>📝</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Contando ovejas para dormir</td>
-      <td><a href="/challenges/day1.md">Mirar solución</a></td>
-    </tr>
-  </tbody>
-</table>
+  <summary><b>2021</b></summary>
+
+  <br>
+
+  <table align="center">
+    <thead>
+      <tr>
+        <th>Día</th>
+        <th align="left">Nombre del ejercicio</th>
+        <th>📝</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Contando ovejas para dormir</td>
+        <td><a href="/challenges/day1.md">Mirar solución</a></td>
+      </tr>
+    </tbody>
+  </table>
 <code align="center">
 |  Día  | Nombre del ejercicio                         |                   📝                    |
 | :---: | :------------------------------------------- | :------------------------------------: |
