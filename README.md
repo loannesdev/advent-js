@@ -1,12 +1,29 @@
 <section align="center" >
-<h1 style="font-weight: bold; margin-bottom: 0;">Retos del <a href="https://2021.adventjs.dev/">adventJS (2021)</a></h1>
+<h1 style="font-weight: bold; margin-bottom: 0;">Retos del <a href="https://2021.adventjs.dev/">adventJS</a></h1>
 <span style="font-style: italic;">por <a href="https://github.com/midudev">Midudev</a></small>
 </section>
 
 <br>
 
-<div align="center">
-
+<details open>
+<summary><b>2021</b></summary>
+<table align="center">
+  <thead>
+    <tr>
+      <th>Día</th>
+      <th>Nombre del ejercicio</th>
+      <th>📝</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Contando ovejas para dormir</td>
+      <td><a href="/challenges/day1.md">Mirar solución</a></td>
+    </tr>
+  </tbody>
+</table>
+<code align="center">
 |  Día  | Nombre del ejercicio                         |                   📝                    |
 | :---: | :------------------------------------------- | :------------------------------------: |
 |   1   | Contando ovejas para dormir                  | [Mirar solución](/challenges/day1.md)  |
@@ -30,5 +47,5 @@
 |  19   | ¿Porqué deberíamos aprender en Platzi?       | [Mirar solución](/challenges/day19.md) |
 |  20   | ¿Una carta de pangramas? ¿QUÉ?               | [Mirar solución](/challenges/day20.md) |
 |  21   | La ruta con los regalos                      | [Mirar solución](/challenges/day21.md) |
-
-</section>
+</code>
+</details>
