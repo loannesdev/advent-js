@@ -126,7 +126,7 @@
       </tr>
       <tr>
         <td>22</td>
-        <td>¿cuantos adornos necesita un árbol?</td>
+        <td>¿Cuantos adornos necesita el árbol?</td>
         <td><a href="/challenges/2021/day22.md">Mirar solución</a></td>
       </tr>
     </tbody>
