@@ -124,6 +124,11 @@
         <td>La ruta con los regalos</td>
         <td><a href="/challenges/2021/day21.md">Mirar solución</a></td>
       </tr>
+      <tr>
+        <td>22</td>
+        <td>¿cuantos adornos necesita un árbol?</td>
+        <td><a href="/challenges/2021/day22.md">Mirar solución</a></td>
+      </tr>
     </tbody>
   </table>
 </details>
