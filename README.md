@@ -134,6 +134,11 @@
         <td>¿Puedes reconfigurar las fábricas para no parar de crear regalos?</td>
         <td><a href="/challenges/2021/day23.md">Mirar solución</a></td>
       </tr>
+      <tr>
+        <td>24</td>
+        <td>Comparando árboles de Navidad</td>
+        <td><a href="/challenges/2021/day24.md">Mirar solución</a></td>
+      </tr>
     </tbody>
   </table>
 </details>
