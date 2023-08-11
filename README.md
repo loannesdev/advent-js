@@ -139,6 +139,11 @@
         <td>Comparando árboles de Navidad</td>
         <td><a href="/challenges/2021/day24.md">Mirar solución</a></td>
       </tr>
+      <tr>
+        <td>25</td>
+        <td>El último juego y hasta el año que viene 👋</td>
+        <td><a href="/challenges/2021/day25.md">Mirar solución</a></td>
+      </tr>
     </tbody>
   </table>
 </details>
