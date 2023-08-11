@@ -129,6 +129,11 @@
         <td>¿Cuantos adornos necesita el árbol?</td>
         <td><a href="/challenges/2021/day22.md">Mirar solución</a></td>
       </tr>
+      <tr>
+        <td>23</td>
+        <td>¿Puedes reconfigurar las fábricas para no parar de crear regalos?</td>
+        <td><a href="/challenges/2021/day23.md">Mirar solución</a></td>
+      </tr>
     </tbody>
   </table>
 </details>
