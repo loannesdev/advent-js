@@ -5,7 +5,7 @@
 
 <br>
 
-<details open>
+<details>
   <br>
 
   <summary><b>2021 &bull; <a href="https://2021.adventjs.dev/">Visitar página</a></b></summary>
@@ -143,6 +143,29 @@
         <td>25</td>
         <td>El último juego y hasta el año que viene 👋</td>
         <td><a href="/challenges/2021/day25.md">Mirar solución</a></td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
+<details open>
+  <br>
+
+  <summary><b>2022 &bull; <a href="https://2022.adventjs.dev/es">Visitar página</a></b></summary>
+
+  <table align="center">
+    <thead>
+      <tr>
+        <th>Día</th>
+        <th>Nombre del ejercicio</th>
+        <th>📝</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>¡Automatizando envolver regalos de navidad!</td>
+        <td><a href="/challenges/2022/day1.md">Mirar solución</a></td>
       </tr>
     </tbody>
   </table>
