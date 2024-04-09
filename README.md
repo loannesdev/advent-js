@@ -167,6 +167,11 @@
         <td>¡Automatizando envolver regalos de navidad!</td>
         <td><a href="/challenges/2022/day1.md">Mirar solución</a></td>
       </tr>
+      <tr>
+        <td>2</td>
+        <td>Nadie quiere hacer horas extra</td>
+        <td><a href="/challenges/2022/day2.md">Mirar solución</a></td>
+      </tr>
     </tbody>
   </table>
 </details>
