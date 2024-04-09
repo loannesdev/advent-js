@@ -172,6 +172,11 @@
         <td>Nadie quiere hacer horas extra</td>
         <td><a href="/challenges/2022/day2.md">Mirar solución</a></td>
       </tr>
+      <tr>
+        <td>3</td>
+        <td>¿Cuantas cajas de regalo puede llevar Papá Noel?</td>
+        <td><a href="/challenges/2022/day3.md">Mirar solución</a></td>
+      </tr>
     </tbody>
   </table>
 </details>
