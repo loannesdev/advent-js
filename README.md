@@ -8,7 +8,7 @@
 <details>
   <br>
 
-  <summary><b>2021 &bull; <a href="https://2021.adventjs.dev/">Visitar página</a></b></summary>
+  <summary><b>2021 &bull; <a href="https://2021.adventjs.dev/" target="_blank" rel="noreferrer noopener">Visitar página</a></b></summary>
 
   <table align="center">
     <thead>
@@ -151,7 +151,7 @@
 <details open>
   <br>
 
-  <summary><b>2022 &bull; <a href="https://2022.adventjs.dev/es">Visitar página</a></b></summary>
+  <summary><b>2022 &bull; <a href="https://2022.adventjs.dev/es" target="_blank" rel="noreferrer noopener">Visitar página</a></b></summary>
 
   <table align="center">
     <thead>
