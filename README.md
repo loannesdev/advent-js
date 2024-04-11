@@ -177,6 +177,11 @@
         <td>¿Cuantas cajas de regalo puede llevar Papá Noel?</td>
         <td><a href="/challenges/2022/day3.md">Mirar solución</a></td>
       </tr>
+      <tr>
+        <td>4</td>
+        <td>Una caja dentro de otra caja y otra...</td>
+        <td><a href="/challenges/2022/day4.md">Mirar solución</a></td>
+      </tr>
     </tbody>
   </table>
 </details>
