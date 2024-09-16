@@ -182,6 +182,11 @@
         <td>Una caja dentro de otra caja y otra...</td>
         <td><a href="/challenges/2022/day4.md">Mirar solución</a></td>
       </tr>
+      <tr>
+        <td>5</td>
+        <td>Optimizando viajes de Santa</td>
+        <td><a href="/challenges/2022/day5.md">Mirar solución</a></td>
+      </tr>
     </tbody>
   </table>
 </details>
