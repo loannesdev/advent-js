@@ -187,6 +187,11 @@
         <td>Optimizando viajes de Santa</td>
         <td><a href="/challenges/2022/day5.md">Mirar solución</a></td>
       </tr>
+      <tr>
+        <td>6</td>
+        <td>Creando adornos navideños</td>
+        <td><a href="/challenges/2022/day6.md">Mirar solución</a></td>
+      </tr>
     </tbody>
   </table>
 </details>
